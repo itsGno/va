@@ -26,6 +26,8 @@ return new \Phalcon\Config([
         'cacheDir'       => BASE_PATH . '/cache/',
         //manul add by creator
         'nmap'           => APP_PATH . '/library/nmap/', 
+        'viewDir'      => APP_PATH . '/views/',
+
 
 
         // This allows the baseUri to be understand project paths that are not in the root directory
