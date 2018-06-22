@@ -31,7 +31,7 @@ class TestController extends ControllerBase
         if (!is_array($parameters)) {
             $parameters = [];
         }
-        $parameters["order"] = "nmap_id";
+        $parameters["order"] = "nmapid";
 
         $test = Test::find($parameters);
         if (count($test) == 0) {
@@ -65,13 +65,13 @@ class TestController extends ControllerBase
     /**
      * Edits a test
      *
-     * @param string $nmap_id
+     * @param string $nmapid
      */
-    public function editAction($nmap_id)
+    public function editAction($nmapid)
     {
         if (!$this->request->isPost()) {
 
-            $test = Test::findFirstBynmap_id($nmap_id);
+            $test = Test::findFirstBynmapid($nmapid);
             if (!$test) {
                 $this->flash->error("test was not found");
 
@@ -83,10 +83,10 @@ class TestController extends ControllerBase
                 return;
             }
 
-            $this->view->nmap_id = $test->nmap_id;
+            $this->view->nmapid = $test->nmapid;
 
-            $this->tag->setDefault("nmap_id", $test->nmap_id);
-            $this->tag->setDefault("nmap_detail", $test->nmap_detail);
+            $this->tag->setDefault("nmapid", $test->nmapid);
+            $this->tag->setDefault("nmapdetail", $test->nmapdetail);
             
         }
     }
@@ -106,7 +106,7 @@ class TestController extends ControllerBase
         }
 
         $test = new Test();
-        $test->nmapDetail = $this->request->getPost("nmap_detail");
+        $test->nmapdetail = $this->request->getPost("nmapdetail");
         
 
         if (!$test->save()) {
@@ -146,11 +146,11 @@ class TestController extends ControllerBase
             return;
         }
 
-        $nmap_id = $this->request->getPost("nmap_id");
-        $test = Test::findFirstBynmap_id($nmap_id);
+        $nmapid = $this->request->getPost("nmapid");
+        $test = Test::findFirstBynmapid($nmapid);
 
         if (!$test) {
-            $this->flash->error("test does not exist " . $nmap_id);
+            $this->flash->error("test does not exist " . $nmapid);
 
             $this->dispatcher->forward([
                 'controller' => "test",
@@ -160,7 +160,7 @@ class TestController extends ControllerBase
             return;
         }
 
-        $test->nmapDetail = $this->request->getPost("nmap_detail");
+        $test->nmapdetail = $this->request->getPost("nmapdetail");
         
 
         if (!$test->save()) {
@@ -172,7 +172,7 @@ class TestController extends ControllerBase
             $this->dispatcher->forward([
                 'controller' => "test",
                 'action' => 'edit',
-                'params' => [$test->nmap_id]
+                'params' => [$test->nmapid]
             ]);
 
             return;
@@ -189,11 +189,11 @@ class TestController extends ControllerBase
     /**
      * Deletes a test
      *
-     * @param string $nmap_id
+     * @param string $nmapid
      */
-    public function deleteAction($nmap_id)
+    public function deleteAction($nmapid)
     {
-        $test = Test::findFirstBynmap_id($nmap_id);
+        $test = Test::findFirstBynmapid($nmapid);
         if (!$test) {
             $this->flash->error("test was not found");
 

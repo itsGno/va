@@ -7,13 +7,13 @@ class Test extends \Phalcon\Mvc\Model
      *
      * @var integer
      */
-    public $nmap_id;
+    public $nmapid;
 
     /**
      *
      * @var string
      */
-    public $nmap_detail;
+    public $nmapdetail;
 
     /**
      * Initialize method for model.
