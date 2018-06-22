@@ -1,0 +1,49 @@
+<?php
+/**
+ * @var \Phalcon\Mvc\View\Engine\Php $this
+ */
+?>
+
+<div class="page-header">
+    <h1>
+        Search test
+    </h1>
+    <p>
+        <?php echo $this->tag->linkTo(["test/new", "Create test"]) ?>
+    </p>
+</div>
+
+<?php echo $this->getContent() ?>
+
+<?php
+    echo $this->tag->form(
+        [
+            "test/search",
+            "autocomplete" => "off",
+            "class" => "form-horizontal"
+        ]
+    );
+?>
+
+<div class="form-group">
+    <label for="fieldNmapId" class="col-sm-2 control-label">Nmap</label>
+    <div class="col-sm-10">
+        <?php echo $this->tag->textField(["nmap_id", "type" => "number", "class" => "form-control", "id" => "fieldNmapId"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldNmapDetail" class="col-sm-2 control-label">Nmap Of Detail</label>
+    <div class="col-sm-10">
+        <?php echo $this->tag->textField(["nmap_detail", "size" => 30, "class" => "form-control", "id" => "fieldNmapDetail"]) ?>
+    </div>
+</div>
+
+
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+        <?php echo $this->tag->submitButton(["Search", "class" => "btn btn-default"]) ?>
+    </div>
+</div>
+
+<?php echo $this->tag->endForm(); ?>
