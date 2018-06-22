@@ -1,0 +1,24 @@
+<div class="page-header">
+    <h1>Congratulations!</h1>
+</div>
+
+<p>nmap</p>
+
+<p>This page is located at <code>views/index/index.phtml</code></p>
+
+
+<?php 
+ while( !feof( $exe ) ) {
+    echo fread($exe, 1024);
+   }
+
+   pclose($exe);
+   echo "Script final";
+   
+
+
+
+
+
+
+    ?>
