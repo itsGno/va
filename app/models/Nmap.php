@@ -14,6 +14,11 @@ class Nmap extends \Phalcon\Mvc\Model
      * @var string
      */
     public $nmapdetail;
+ /**
+     *
+     * @var string
+     */
+    public $nmaptarget;
 
     /**
      * Initialize method for model.
