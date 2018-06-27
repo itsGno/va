@@ -9,6 +9,7 @@
 
 <?php echo \Phalcon\Tag::form(array("nmap/scan", "autocomplete" => "off","method" => "POST")) ?>  
             <?php echo \Phalcon\Tag::textField(array("nmapdetail", "size" => 30,"value" => "test")) ?> 
+            <?php echo \Phalcon\Tag::textField(array("nmaptarget", "size" => 30,"value" => "test")) ?> 
       <?php echo \Phalcon\Tag::submitButton(array("Save", "class" => "btn")) ?>
 
    </table> 
