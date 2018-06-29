@@ -19,25 +19,17 @@ class NmapController extends \Phalcon\Mvc\Controller
         }
         $nmap = new Nmap();
         $nmap->nmapdetail = $this->request->getPost("nmapdetail");
-        
-        if (!$nmap->save()) {
-            foreach ($nmap->getMessages() as $message) {
-                $this->flash->error($message);
-            }
-            $this->dispatcher->forward([
-                'controller' => "nmap",
-                'action' => 'index'
-            ]);
-            return; 
-        }
+        $nmap->nmaptarget = "192.168.220.1";
 
-        $this->flash->success("nmap was created successfully");
-
-
-            //command exection
-            $exe= popen($config->application->nmap.'nmap.exe nmap -h',r);
-            $this->view->$param = $this->request->getPost("param");
+            //cd exection
+            $command = ($config->application->nmap);
+          //  $command .=('nmap.exe -v -A -Pn -T5 -oX ');
+           // $command .= ('C:\xampp\htdocs\va\app\library\nmap\output/192.168.220.1.xml 192.168.220.1');
+            $command = ("ping 127.0.0.1");
+            $exe= exec($command,$output);
+            $this->view->command = $command;
             $this->view->exe = $exe;
+            $this->view->output = $output;
     }
     //show result from DB
     public function resultAction()

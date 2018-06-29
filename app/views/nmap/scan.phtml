@@ -4,21 +4,18 @@
 
 <p>nmap</p>
 
-<p>This page is located at <code>views/index/index.phtml</code></p>
+<p>This page is located at <code>views/nmap/scan.phtml</code></p>
 
 
 <?php 
- while( !feof( $exe ) ) {
-    echo fread($exe, 1024);
-   }
+    print_r($command);
+    echo "<br>";
+    print_r(strlen($exe));
+    echo "<br>";
+    print_r(($exe));
+    foreach ($output as $output => $value) {
+    echo ($value);
+    echo "<br>";
 
-   pclose($exe);
-   echo "Script final";
-   
-
-
-
-
-
-
-    ?>
+    }
+?>

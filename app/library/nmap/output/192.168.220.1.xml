@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Wed Jun 27 16:21:06 2018 as: nmap.exe -v -A -Pn -T5 -oX C:\\xampp\\htdocs\\va\\app\\library\\nmap\\output/192.168.220.1.xml 192.168.220.1 -->
+<nmaprun scanner="nmap" args="nmap.exe -v -A -Pn -T5 -oX C:\\xampp\\htdocs\\va\\app\\library\\nmap\\output/192.168.220.1.xml 192.168.220.1" start="1530091266" startstr="Wed Jun 27 16:21:06 2018" version="7.60" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1530091268"/>
+<taskend task="NSE" time="1530091268"/>
+<taskbegin task="NSE" time="1530091268"/>
+<taskend task="NSE" time="1530091268"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1530091279"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1530091279"/>
+<taskbegin task="SYN Stealth Scan" time="1530091279"/>
+<taskend task="SYN Stealth Scan" time="1530091280" extrainfo="1000 total ports"/>
+<taskbegin task="Service scan" time="1530091280"/>
+<taskend task="Service scan" time="1530091410" extrainfo="11 services on 1 host"/>
+<taskbegin task="NSE" time="1530091413"/>
+<taskend task="NSE" time="1530091453"/>
+<taskbegin task="NSE" time="1530091453"/>
+<taskend task="NSE" time="1530091453"/>
+<host starttime="1530091279" endtime="1530091453"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.220.1" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="989">
+<extrareasons reason="resets" count="989"/>
+</extraports>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" product="Microsoft Windows netbios-ssn" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="https" servicefp="SF-Port443-TCP:V=7.60%T=SSL%I=7%D=6/27%Time=5B33571C%P=i686-pc-windows-windows%r(GetRequest,A5,&quot;HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Wed,\x2027\x20Jun\x202018\x2009:21:32\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nX-Frame-Options:\x20DENY\r\nContent-Length:\x200\r\n\r\n&quot;)%r(HTTPOptions,AB,&quot;HTTP/1\.1\x20501\x20Not\x20Implemented\r\nDate:\x20Wed,\x2027\x20Jun\x202018\x2009:21:32\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nX-Frame-Options:\x20DENY\r\nContent-Length:\x200\r\n\r\n&quot;)%r(FourOhFourRequest,A5,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Wed,\x2027\x20Jun\x202018\x2009:21:32\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nX-Frame-Options:\x20DENY\r\nContent-Length:\x200\r\n\r\n&quot;)%r(RTSPRequest,B3,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Wed,\x2027\x20Jun\x202018\x2009:21:42\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-Length:\x2050\r\n\r\n&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;400\x20Bad\x20Request&lt;/H1&gt;&lt;/BODY&gt;&lt;/HTML&gt;&quot;)%r(SIPOptions,B3,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Wed,\x2027\x20Jun\x202018\x2009:22:45\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-Length:\x2050\r\n\r\n&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;400\x20Bad\x20Request&lt;/H1&gt;&lt;/BODY&gt;&lt;/HTML&gt;&quot;);" tunnel="ssl" method="probed" conf="10"/><script id="fingerprint-strings" output="&#xa;  FourOhFourRequest: &#xa;    HTTP/1.1 404 Not Found&#xa;    Date: Wed, 27 Jun 2018 09:21:32 GMT&#xa;    Connection: close&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    X-Frame-Options: DENY&#xa;    Content-Length: 0&#xa;  GetRequest: &#xa;    HTTP/1.1 403 Forbidden&#xa;    Date: Wed, 27 Jun 2018 09:21:32 GMT&#xa;    Connection: close&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    X-Frame-Options: DENY&#xa;    Content-Length: 0&#xa;  HTTPOptions: &#xa;    HTTP/1.1 501 Not Implemented&#xa;    Date: Wed, 27 Jun 2018 09:21:32 GMT&#xa;    Connection: close&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    X-Frame-Options: DENY&#xa;    Content-Length: 0&#xa;  RTSPRequest: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Date: Wed, 27 Jun 2018 09:21:42 GMT&#xa;    Connection: close&#xa;    Content-Type: text/html&#xa;    Content-Length: 50&#xa;    &lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;400 Bad Request&lt;/H1&gt;&lt;/BODY&gt;&lt;/HTML&gt;&#xa;  SIPOptions: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Date: Wed, 27 Jun 2018 09:22:45 GMT&#xa;    Connection: close&#xa;    Content-Type: text/html&#xa;    Content-Length: 50&#xa;    &lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;400 Bad Request&lt;/H1&gt;&lt;/BODY&gt;&lt;/HTML&gt;"><elem key="FourOhFourRequest">&#xa;    HTTP/1.1 404 Not Found&#xa;    Date: Wed, 27 Jun 2018 09:21:32 GMT&#xa;    Connection: close&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    X-Frame-Options: DENY&#xa;    Content-Length: 0</elem>
+<elem key="GetRequest">&#xa;    HTTP/1.1 403 Forbidden&#xa;    Date: Wed, 27 Jun 2018 09:21:32 GMT&#xa;    Connection: close&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    X-Frame-Options: DENY&#xa;    Content-Length: 0</elem>
+<elem key="HTTPOptions">&#xa;    HTTP/1.1 501 Not Implemented&#xa;    Date: Wed, 27 Jun 2018 09:21:32 GMT&#xa;    Connection: close&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    X-Frame-Options: DENY&#xa;    Content-Length: 0</elem>
+<elem key="RTSPRequest">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Date: Wed, 27 Jun 2018 09:21:42 GMT&#xa;    Connection: close&#xa;    Content-Type: text/html&#xa;    Content-Length: 50&#xa;    &lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;400 Bad Request&lt;/H1&gt;&lt;/BODY&gt;&lt;/HTML&gt;</elem>
+<elem key="SIPOptions">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Date: Wed, 27 Jun 2018 09:22:45 GMT&#xa;    Connection: close&#xa;    Content-Type: text/html&#xa;    Content-Length: 50&#xa;    &lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;400 Bad Request&lt;/H1&gt;&lt;/BODY&gt;&lt;/HTML&gt;</elem>
+</script><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+</table>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/plain; charset=utf-8)."></script><script id="ssl-cert" output="Subject: commonName=VMware/countryName=US&#xa;Issuer: commonName=VMware/countryName=US&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2018-01-18T05:08:09&#xa;Not valid after:  2019-01-18T05:08:09&#xa;MD5:   87fd 3902 2b59 f92f fb9b c81e a8b0 d3c3&#xa;SHA-1: 8929 f7d9 cc08 404e f8d9 c41d 209b 88eb 549b 6914"><table key="subject">
+<elem key="commonName">VMware</elem>
+<elem key="emailAddress">none@vmware.com</elem>
+<elem key="localityName">Palo Alto</elem>
+<elem key="organizationalUnitName">VMware</elem>
+<elem key="countryName">US</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">VMware</elem>
+<elem key="emailAddress">none@vmware.com</elem>
+<elem key="localityName">Palo Alto</elem>
+<elem key="organizationalUnitName">VMware</elem>
+<elem key="countryName">US</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="exponent">userdata: 06D074C0</elem>
+<elem key="bits">2048</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+<elem key="value">D9:D1:22:EE:68:33:AA:C5:71:E5:18:1B:7E:C2:6F:02:13:A2:98:80</elem>
+</table>
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">keyid:D9:D1:22:EE:68:33:AA:C5:71:E5:18:1B:7E:C2:6F:02:13:A2:98:80&#xa;DirName:/C=US/L=Palo Alto/OU=VMware/CN=VMware/emailAddress=none@vmware.com&#xa;serial:AB:D3:D8:9A:DB:05:09:5B&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:TRUE</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2018-01-18T05:08:09</elem>
+<elem key="notAfter">2019-01-18T05:08:09</elem>
+</table>
+<elem key="md5">87fd39022b59f92ffb9bc81ea8b0d3c3</elem>
+<elem key="sha1">8929f7d9cc08404ef8d9c41d209b88eb549b6914</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIEEjCCAvqgAwIBAgIJAKvT2JrbBQlbMA0GCSqGSIb3DQEBCwUAMGMxCzAJBgNV&#xa;BAYTAlVTMRIwEAYDVQQHDAlQYWxvIEFsdG8xDzANBgNVBAsMBlZNd2FyZTEPMA0G&#xa;A1UEAwwGVk13YXJlMR4wHAYJKoZIhvcNAQkBFg9ub25lQHZtd2FyZS5jb20wHhcN&#xa;MTgwMTE4MDUwODA5WhcNMTkwMTE4MDUwODA5WjBjMQswCQYDVQQGEwJVUzESMBAG&#xa;A1UEBwwJUGFsbyBBbHRvMQ8wDQYDVQQLDAZWTXdhcmUxDzANBgNVBAMMBlZNd2Fy&#xa;ZTEeMBwGCSqGSIb3DQEJARYPbm9uZUB2bXdhcmUuY29tMIIBIjANBgkqhkiG9w0B&#xa;AQEFAAOCAQ8AMIIBCgKCAQEA0kJpONAmsaZgb7LTgVCMWThbU+03YejcbK13QmiL&#xa;5GG1Hc0jEEselp2Yn1s5FZ3S87XEpDk/vcX+lVi4gXWmyLkihZ2oEPNxW864ptH3&#xa;OdCFRbvDL5ypTmSJICbD7JruuA86L46zTgz2vJSGu8Tbkfcoyh2aQ3g/8i6nnAW1&#xa;1ANrxjDEhme8H+UcVVIka85r3LgyE2EdxMQ6IUEH9x78bBS7mrmohQZpE/5WTPnK&#xa;XejE5JQ+jAXaTEljftgEAz1HciRb6eQyAOhLQBKSWX/zHKzegkG+hN0CKUeWbf67&#xa;Ixtdh+FfUMoAjICbt9hC7u8NXRUvG40hsMHNUbtqA/gFGwIDAQABo4HIMIHFMB0G&#xa;A1UdDgQWBBTZ0SLuaDOqxXHlGBt+wm8CE6KYgDCBlQYDVR0jBIGNMIGKgBTZ0SLu&#xa;aDOqxXHlGBt+wm8CE6KYgKFnpGUwYzELMAkGA1UEBhMCVVMxEjAQBgNVBAcMCVBh&#xa;bG8gQWx0bzEPMA0GA1UECwwGVk13YXJlMQ8wDQYDVQQDDAZWTXdhcmUxHjAcBgkq&#xa;hkiG9w0BCQEWD25vbmVAdm13YXJlLmNvbYIJAKvT2JrbBQlbMAwGA1UdEwQFMAMB&#xa;Af8wDQYJKoZIhvcNAQELBQADggEBADJL9utuQFvntxvFzbPpUnSyyJ1xodMUiGra&#xa;PcZlCkOa9+xvAc6J2QyVppXDS7ASqwNSqewiQpnEbqU6zycVlxQX4fm6DE0KwSnS&#xa;h5bi23sQKfCo+9Rw3uZ3mEu1lLAsw4oBxpotpclldhsch2HOOLXtmHyMtSjJdQPP&#xa;A1q1ZG+iEIBKO3Al6+iasuv3Q+LCbndm9dqdGKqwBD9wxXoXygJIcaH/ERN16/eK&#xa;If1AykNYM5759knYJUsUV6afL+/KOFk54U0qcmW7Mt0cC61nIEanBoF6iC+9FtId&#xa;vT4hpIl2JKJJUxpf9A86AI2omGA0Sxzcba1nRLScWbeFjPHNjUE=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="vmware-version" output="&#xa;  Server version: VMware Workstation 14.1.1&#xa;  Build: 7528167&#xa;  Locale version: INTL  &#xa;  OS type: win32-x86&#xa;  Product Line ID: ws"><elem key="Server version">VMware Workstation 14.1.1</elem>
+<elem key="Build">7528167</elem>
+<elem key="Locale version">INTL  </elem>
+<elem key="OS type">win32-x86</elem>
+<elem key="Product Line ID">ws</elem>
+</script></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="902"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="vmware-auth" product="VMware Authentication Daemon" version="1.10" extrainfo="Uses VNC, SOAP" tunnel="ssl" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="912"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="vmware-auth" product="VMware Authentication Daemon" version="1.0" extrainfo="Uses VNC, SOAP" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="1433"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ms-sql-s" product="Microsoft SQL Server " version="14.00.1000.00" method="probed" conf="10"/><script id="ms-sql-ntlm-info" output="&#xa;  Target_Name: ITSGGASD&#xa;  NetBIOS_Domain_Name: ITSGGASD&#xa;  NetBIOS_Computer_Name: ITSGGASD&#xa;  DNS_Domain_Name: itsGGasd&#xa;  DNS_Computer_Name: itsGGasd&#xa;  Product_Version: 10.0.17134"><elem key="Target_Name">ITSGGASD</elem>
+<elem key="NetBIOS_Domain_Name">ITSGGASD</elem>
+<elem key="NetBIOS_Computer_Name">ITSGGASD</elem>
+<elem key="DNS_Domain_Name">itsGGasd</elem>
+<elem key="DNS_Computer_Name">itsGGasd</elem>
+<elem key="Product_Version">10.0.17134</elem>
+</script><script id="ssl-cert" output="Subject: commonName=SSL_Self_Signed_Fallback&#xa;Issuer: commonName=SSL_Self_Signed_Fallback&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2018-06-22T10:14:33&#xa;Not valid after:  2048-06-22T10:14:33&#xa;MD5:   331d f1dc a305 ce62 62bf bf34 51d2 5b4f&#xa;SHA-1: 4c2a e4fe b12c 291e f89e a5dc 6c01 fbc9 eced 486f"><table key="subject">
+<elem key="commonName">\x00S\x00S\x00L\x00_\x00S\x00e\x00l\x00f\x00_\x00S\x00i\x00g\x00n\x00e\x00d\x00_\x00F\x00a\x00l\x00l\x00b\x00a\x00c\x00k</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">\x00S\x00S\x00L\x00_\x00S\x00e\x00l\x00f\x00_\x00S\x00i\x00g\x00n\x00e\x00d\x00_\x00F\x00a\x00l\x00l\x00b\x00a\x00c\x00k</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="exponent">userdata: 060D5C88</elem>
+<elem key="bits">2048</elem>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2018-06-22T10:14:33</elem>
+<elem key="notAfter">2048-06-22T10:14:33</elem>
+</table>
+<elem key="md5">331df1dca305ce6262bfbf3451d25b4f</elem>
+<elem key="sha1">4c2ae4feb12c291ef89ea5dc6c01fbc9eced486f</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIC/jCCAeagAwIBAgIQNclAUvCYJ6dMvZYISh2zRDANBgkqhkiG9w0BAQsFADA7&#xa;MTkwNwYDVQQDHjAAUwBTAEwAXwBTAGUAbABmAF8AUwBpAGcAbgBlAGQAXwBGAGEA&#xa;bABsAGIAYQBjAGswHhcNMTgwNjIyMTAxNDMzWhcNNDgwNjIyMTAxNDMzWjA7MTkw&#xa;NwYDVQQDHjAAUwBTAEwAXwBTAGUAbABmAF8AUwBpAGcAbgBlAGQAXwBGAGEAbABs&#xa;AGIAYQBjAGswggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCjWyAzEn+G&#xa;t6VDx1Em7RFFuqja3GDefDjE43kkUWmHuXBhSM8DphaSWfdSw+cHlXLigZUaR3Pn&#xa;eh7a7Fx2TmZLjAiJ12g0DHxc6Ty9SjPVXPtvwfcn0S+5bpSk1G04Egfd4UjQAUyL&#xa;RvpT2FurCAQ8/so1R3pKHb/gkqz07l8Z6vISSGE6rxZ/2nfekWj+xVsw7+mGk7dR&#xa;k+uRgjcT2ybHAgAKQ8pbNOrQ9+rvfNaw0xcd92X/nwQBxPMq7CCOMrvSxunUXEya&#xa;Ddw2gpngq1SW65JX463uqEIktvAb3PagYnS9IEZDGKmUP2HDbEnc48Mor1IPGf+8&#xa;b0XJ8PjkYw5VAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAENOw2dmRR52oV2Kpval&#xa;7h3dpbEFpana3Aode60SlG/JhwG/cx220J5zLM9i6G6lqo1rXgxEaFXSjyRkecCc&#xa;/ltXIJ1HNCh/SABD92qq8QvONiido/BiungNNpxmbKokLC7FPj8TLhebhT8Ni3e5&#xa;M4QWjidsYHtvugBwnv65E+z1HzvxBmUvA8hKk7XEnvme2uOaHQG2UAASYVYs7jpv&#xa;/uCALpaVd79n+rRZzShMK6DvYG2Z0Ls1SeSdWURl47KhsLqUgKiheGy+VmuUO/GR&#xa;T1Yf1YiK4QhogVuUdwCkgpcX1stWb06Pii6+rPXylbnhN1fxKqLajZbaEm4Pe+ky&#xa;k5A=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="2018-06-27T09:23:34+00:00; 0s from scanner time."><elem key="date">2018-06-27T09:23:34+00:00</elem>
+<elem key="delta">0.0</elem>
+</script></port>
+<port protocol="tcp" portid="2382"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ms-olap3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="2383"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ms-olap4" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="mysql" product="MariaDB" extrainfo="unauthorized" method="probed" conf="10"><cpe>cpe:/a:mariadb:mariadb</cpe></service></port>
+<port protocol="tcp" portid="8888"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Apache httpd" version="2.4.33" extrainfo="(Win32) OpenSSL/1.1.0h PHP/7.2.6" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.33</cpe></service><script id="http-favicon" output="Unknown favicon MD5: 6EB4A43CB64C97F76562AF703893C8FD"/><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6"><elem>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6</elem>
+</script><script id="http-title" output="Welcome to XAMPP&#xa;Requested resource was http://192.168.220.1:8888/dashboard/"><elem key="title">Welcome to XAMPP</elem>
+<elem key="redirect_url">http://192.168.220.1:8888/dashboard/</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="135"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="Microsoft Windows Longhorn" accuracy="93" line="74033">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="Longhorn" accuracy="93"><cpe>cpe:/o:microsoft:windows</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 10 build 10586" accuracy="91" line="65593">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="10" accuracy="91"><cpe>cpe:/o:microsoft:windows_10</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 SP2" accuracy="91" line="70919">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="91"><cpe>cpe:/o:microsoft:windows_server_2008::sp2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 SP1" accuracy="91" line="72822">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="91"><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 8" accuracy="91" line="73215">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8" accuracy="91"><cpe>cpe:/o:microsoft:windows_8</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 10 build 15031" accuracy="91" line="65720">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="10" accuracy="91"><cpe>cpe:/o:microsoft:windows_10</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 8.1 Update 1" accuracy="91" line="73287">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8" accuracy="91"><cpe>cpe:/o:microsoft:windows_8</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 Enterprise SP1" accuracy="90" line="72167">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="90"><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Vista SP1" accuracy="90" line="75295">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="Vista" accuracy="90"><cpe>cpe:/o:microsoft:windows_vista::sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 10 10586 - 14393" accuracy="89" line="65478">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="10" accuracy="89"><cpe>cpe:/o:microsoft:windows_10</cpe></osclass>
+</osmatch>
+</os>
+<distance value="0"/>
+<tcpsequence index="259" difficulty="Good luck!" values="345E2CC,22B4B52E,871BFFA,26E501F1,C2B8E545,CFCA04C8"/>
+<ipidsequence class="Incremental" values="7C48,7C4A,7C4C,7C4E,7C51,7C53"/>
+<tcptssequence class="none returned (unsupported)"/>
+<hostscript><script id="ms-sql-info" output="&#xa;  Windows server name: ITSGGASD&#xa;  192.168.220.1\MSSQLSERVER: &#xa;    Instance name: MSSQLSERVER&#xa;    Version: &#xa;      name: Microsoft SQL Server &#xa;      number: 14.00.1000.00&#xa;      Product: Microsoft SQL Server &#xa;    TCP port: 1433&#xa;    Clustered: false"><elem key="Windows server name">ITSGGASD</elem>
+<table key="192.168.220.1\MSSQLSERVER">
+<elem key="Instance name">MSSQLSERVER</elem>
+<table key="Version">
+<elem key="name">Microsoft SQL Server </elem>
+<elem key="number">14.00.1000.00</elem>
+<elem key="Product">Microsoft SQL Server </elem>
+</table>
+<elem key="TCP port">1433</elem>
+<elem key="Clustered">false</elem>
+</table>
+</script><script id="smb2-security-mode" output="ERROR: Script execution failed (use -d to debug)"/><script id="smb2-time" output="ERROR: Script execution failed (use -d to debug)"/></hostscript><times srtt="14" rttvar="30" to="50000"/>
+</host>
+<taskbegin task="NSE" time="1530091453"/>
+<taskend task="NSE" time="1530091453"/>
+<taskbegin task="NSE" time="1530091453"/>
+<taskend task="NSE" time="1530091453"/>
+<runstats><finished time="1530091453" timestr="Wed Jun 27 16:24:13 2018" elapsed="187.46" summary="Nmap done at Wed Jun 27 16:24:13 2018; 1 IP address (1 host up) scanned in 187.46 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
