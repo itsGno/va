@@ -42,6 +42,5 @@ class NmapController extends \Phalcon\Mvc\Controller
     //show result from DB
     public function resultAction()
     {
-            
     }
 }
