@@ -13,13 +13,13 @@ class NmapController extends \Phalcon\Mvc\Controller
 
 
             $nmap = new Nmap();
-            $nmap->nmapdetail = $this->request->getPost("nmapdetail");
-            $nmap->nmaptarget = "192.168.220.1";
+            $nmap->nmaptarget = $this->request->getPost("nmaptarget");
+    
     
                 //cd exection
-                $command =('nmap.exe -v -A -Pn -T5 -oX ');
-               $command .= ('C:\xampp\htdocs\va\app\library\nmap\output/192.168.220.1.xml 192.168.220.1');
-            //    $command = ("ping 127.0.0.1");
+           //    $command =('nmap.exe -v -A -Pn -T5  ');
+            //   $command .= ('C:\xampp\htdocs\va\app\library\nmap\output/192.168.220.1.xml 192.168.220.1');
+                $command = ("ping ".$nmap->nmaptarget);
                 $exe= exec($command,$output);
                 $this->view->command = $command;
                 $this->view->exe = $exe;
@@ -28,6 +28,7 @@ class NmapController extends \Phalcon\Mvc\Controller
                 foreach ($output as $output => $value) {
                   $result .= $value."<br>";
                 }
+                
                 return $result;
 
  
