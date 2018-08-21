@@ -19,7 +19,9 @@ class NmapController extends \Phalcon\Mvc\Controller
                 //cd exection
            //    $command =('nmap.exe -v -A -Pn -T5  ');
             //   $command .= ('C:\xampp\htdocs\va\app\library\nmap\output/192.168.220.1.xml 192.168.220.1');
-                $command = ("ping ".$nmap->nmaptarget);
+                $command = ("nmap.exe -v -A -Pn -T5 ".$nmap->nmaptarget);
+                echo($namp->nmaptarget);
+                echo($command);
                 $exe= exec($command,$output);
                 $this->view->command = $command;
                 $this->view->exe = $exe;
