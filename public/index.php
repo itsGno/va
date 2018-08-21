@@ -12,7 +12,7 @@ try {
      * The FactoryDefault Dependency Injector automatically registers
      * the services that provide a full stack framework.
      */
-    $di = new FactoryDefault();
+     $di = new FactoryDefault();
 
     /**
      * Handle routes

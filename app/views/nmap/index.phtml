@@ -7,10 +7,25 @@
 <p>This page is located at <code>views/index/index.phtml</code></p>
 
 
-<?php echo \Phalcon\Tag::form(array("nmap/scan", "autocomplete" => "off","method" => "POST")) ?>  
             <?php echo \Phalcon\Tag::textField(array("nmapdetail", "size" => 30,"value" => "test")) ?> 
             <?php echo \Phalcon\Tag::textField(array("nmaptarget", "size" => 30,"value" => "test")) ?> 
-      <?php echo \Phalcon\Tag::submitButton(array("Save", "class" => "btn")) ?>
+<button onclick="test()">button</button>
+<div id="content">ฟหก</div>
 
-   </table> 
-</form>
+
+<script>
+
+   function test(){
+    $.ajax({
+        url: "nmap/scan",
+        async: true,
+        timeout: 0,
+        success: function(result){
+            $("#content").html(result);
+        },
+        
+    });
+   }
+</script>
+
+
