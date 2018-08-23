@@ -5,31 +5,34 @@
 <p>nmap</p>
 
 <p>This page is located at <code>views/index/index.phtml</code></p>
-
             <!-- <?php echo \Phalcon\Tag::form(array("id" => "NmapScan")) ?> -->
             <!-- <?php echo \Phalcon\Tag::textField(array("nmapdetail", "size" => 30,"value" => "test")) ?>  -->
             <?php echo \Phalcon\Tag::textField(array("nmaptarget", "size" => 30,"value" => "127.0.0.1")) ?> 
 <button onclick="test()">button</button>
-<div id="content">asd</div>
+<div id="loader"></div>
+<div id="content"></div>
 
 
 <script>
 
-   function test(){
 
-       var trgt = $('#nmaptarget');
-       console.log(trgt);
+   function test(){
+    var trgt = $('#nmaptarget');
     $.ajax({
         url: "nmap/scan",
         type: "post",
         data: trgt,
         async: true,
         timeout: 0,
+        beforeSend: function(){
+            document.getElementById("loader").style.display = "block";
+            $("#content").html("Processing...");
 
-        success: function(result){
-            $("#content").html(result);
         },
-        
+        success: function(result){
+            document.getElementById("loader").style.display = "none";
+            $("#content").html(result);
+        }, 
     });
    }
 </script>
