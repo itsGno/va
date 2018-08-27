@@ -11,9 +11,10 @@ class NmapController extends \Phalcon\Mvc\Controller
     {
         $this->view->disable();
             $nmap = new Nmap();
-            $nmap->nmaptarget = $this->request->getPost("nmaptarget");
+            $nmap->nmaptarget = $this->request->getPost("Command");
             //   $command = ("nmap.exe -v -A ".$nmap->nmaptarget);
-                $command = ("ping ".$nmap->nmaptarget);
+                $command = ($nmap->nmaptarget);
+                print_r($nmap->nmaptarget);
                 $exe = exec($command,$output);
                 $this->view->output = $output;
                 $result = '';

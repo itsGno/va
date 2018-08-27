@@ -5,19 +5,25 @@
 <p>nmap</p>
 
 <p>This page is located at <code>views/index/index.phtml</code></p>
-            <!-- <?php echo \Phalcon\Tag::form(array("id" => "NmapScan")) ?> -->
-            <!-- <?php echo \Phalcon\Tag::textField(array("nmapdetail", "size" => 30,"value" => "test")) ?>  -->
-            <?php echo \Phalcon\Tag::textField(array("nmaptarget", "size" => 30,"value" => "127.0.0.1")) ?> 
-<button onclick="test()">button</button>
+  <table>
+    <div class="forminput">Target:
+       <?php echo \Phalcon\Tag::textField(array("myText1", "size" => 30,"value" => "127.0.0.1" ,"placeholder"=>"Target")) ?> 
+    </div>
+    <div class="forminput">Options:
+       <?php echo \Phalcon\Tag::textField(array("myText2", "size" => 30,"value" => "-T4 -v -A" ,"placeholder"=>"Command")) ?> 
+    </div>
+    <div class="forminput">Command:
+       <?php echo \Phalcon\Tag::textField(array("Command", "size" => 30,"value" => "nmap" ,"placeholder"=>"Target")) ?> 
+    </div>
+    <div class="forminput">
+        <?php echo \Phalcon\Tag::submitButton(array("button", "onclick"=>"test()" )) ?> 
+    </div>      
+    </table>     
 <div id="loader"></div>
 <div id="content"></div>
-
-
 <script>
-
-
    function test(){
-    var trgt = $('#nmaptarget');
+    var trgt = $('#Command');
     $.ajax({
         url: "nmap/scan",
         type: "post",
